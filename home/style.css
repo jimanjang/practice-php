@@ -14,6 +14,12 @@ html {
 
 body {
   font: 300 18px/18px Roboto
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
 *,
@@ -41,6 +47,10 @@ body {
   position: relative;
   background: url(https://raw.githubusercontent.com/khadkamhn/secret-project/master/img/background.jpg) no-repeat center center fixed; 
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19)
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .mobile-wrap:before {
@@ -1005,6 +1015,7 @@ button{
 	left:50%;
 	top:50%;
 	transform: translate(-50%,-625%);
+  margin-top: -1030px;
 }
 button:focus {
 	outline:0;
@@ -1192,14 +1203,15 @@ body {
 }
 
 .cards {
-    width: 200%;
+    width: 100%;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
     max-width: 820px;
     margin-top: 30px;
-    margin-left: 0px;
+    margin-right: 50px;
+    margin-left: -20px;
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
@@ -1264,10 +1276,10 @@ top: 0;
   
 }
 .card {
-  margin-right: 25px;
+  margin-left: 20px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
   background-color: #fff;
-    width: 100%;
+    width: 50%;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
@@ -1279,7 +1291,7 @@ top: 0;
 }
 
 .card__info {
-z-index: 2;
+  z-index: 2;
   background-color: #fff;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
