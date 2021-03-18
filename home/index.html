@@ -714,11 +714,27 @@
         <a href="#toggle" class="mask"><i class="ion-ios-plus-empty"></i></a>
       </div>
     </div>
-    
   </div>
-  
+  <!--<div class="footer">
+    <span class="ion-ios-navicon pull-left"><i></i></span>
+     <span class="title">Home</span>
+     <span class="ion-ios-search pull-right"></span>
+     <div class="search">
+     <form method="post">
+       <input type="search" placeholder="Search Here">
+     </form>
+     </div>
+    -->
+    <section>
+      <ion-footer-bar class="bar-energized" ng-if="$root.showFooter">
+        <div class="button-bar">
+          <button  class="button button-icon icon ion-home"></button>
+          <button class="button button-icon ion-email"></button>
+		  <button  class="button button-icon ion-information-circled"></button>
+        </div>
+    </ion-footer-bar>
+    </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="script.js"></script>
-  <script src="footer.js"></script>
 </body>
 </html>
