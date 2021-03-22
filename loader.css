@@ -4,7 +4,7 @@ body, html {
 }
 
 body {
-  background-color: #585B9C;
+  background-color: black;
   animation: fadein 5000ms ease-out;
   -moz-animation: fadein 5000ms ease-out; /* Firefox */
   -webkit-animation: fadein 5000ms ease-out; /* Safari and  Chrome */
