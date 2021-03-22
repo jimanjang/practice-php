@@ -8,19 +8,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><?php include 'setting-name.php';?> </h1> <br>
+    <h1><?php include 'setting-name.php'?> </h1> <br>
     <h1>님은 무엇이 고민인가요?</h1> <br>
     <p> 개선하고 싶은 문제를 골라보세요. </p> <br>
-    <div class="wrap">
         <div id="holder">
-            <a href="#" class="btn"><span class="icon icon-search"></span></a>
-                <button class="select-method"> 깊은수면</button><br>
-            <button class="select-method"> 감정 다스리기</button><br>
-            <button class="select-method"> 집중과 몰입</button><br>
-            <button class="select-method"> 일상에서 벗어나기</button><br>
-            <button class="select-method"> 삶의 의미 찾기</button>
+            <form method="POST" action="fin-setting.php">
+                <button class="select-method" type="select"> 깊은수면</button><br>
+                <button class="select-method" type="select"> 감정 다스리기</button><br>
+                <button class="select-method" type="select"> 집중과 몰입</button><br>
+                <button class="select-method" type="select"> 일상에서 벗어나기</button><br>
+                <button class="select-method" type="select"> 삶의 의미 찾기</button>
+           </form>     
         </div>
-    </div>
-    <button class="button"> 선택</button>
+    <a href="fin-setting.php">
+        <button class="button"> 선택</button>
+    </a>
 </body>
 </html>
